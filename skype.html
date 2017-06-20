@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>理論物理と情報と洋楽の理系向けサイト</title>
+<link rel="stylesheet" href="css/style1.css">
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/jquery-1.3.2.min.js"></script>
+<script src="js/custom.js"></script>
+<img src='images/eee.JPG' id='rotate'>
+
+<style>
+@keyframes rotateArea {
+0% {transform: rotate(0deg);}
+100% {transform: rotate(360deg);}
+}
+#rotate  {
+z-index: -1;
+width: 2000px;
+height: 2000px;
+margin: -1000px;
+position: fixed;
+top: 50%;
+left: 50%;
+animation-name: rotateArea;
+animation-timing-function: linear;
+animation-delay: 0s;
+animation-duration:300s;
+animation-iteration-count: infinite;
+}
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+<div id="container">
+
+
+<center>
+<header>
+<hr shade style="color:blue" size="3" />
+<h1>理論物理と情報と洋楽の理系向けサイト</h1>
+<hr shade style="color:blue" size="3" />
+</header>
+</center>
+
+<nav id="menu">
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="yougaku.html">洋楽</a></li>
+<li><a href="zyouhou.html">情報系</a></li>
+<li><a href="rironn.html">理論物理</a></li>
+<li><a href="skype.html">Skypeコンタクト</a></li>
+</ul>
+</nav>
+
+
+<div id="contents">
+<h2>skypeコンタクト<h2>
+<p class="text-big">skypeID:aramuhasewo</p>
+<p id="logic"><a href="index.html"><img src="images/EmiliaV.JPG" width="450" height="300" alt=""></a></p>
+</div>
+
+<div id="footer">
+<small>空前絶後の理系サイト</small>
+</div>
+
+
+
+
+</div>
+
+</body>
+
+
+</html>

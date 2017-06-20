@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+body{
+/*===============================================
+●style.css 画面の横幅が769px以上
+===============================================*/
+@media screen and (min-width: 769px){
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+#container{
+width:100%;
+}
+～以下、画面の横幅が768pxまでの場合のスタイル記入～
+}
+/*===============================================
+●tablet.css 画面の横幅が768pxまで
+===============================================*/
+@media screen and (max-width: 768px){
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+#container{
+width:100%;
+}
+～以下、画面の横幅が768pxまでの場合のスタイル記入～
+}
+/*===============================================
+●smart.css  画面の横幅が640pxまで
+===============================================*/
+@media screen and (max-width:640px){
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+#container{
+width:100%;
+}
+～以下、画面の横幅が640pxまでの場合のスタイル記入～
+}
+@import url(style.css) screen and (min-width: 769px);
+@import url(tablet.css) screen and (max-width: 768px);
+@import url(smart.css) screen and (max-width: 640px);
+img{
+max-width: 100%;
+height: auto;
+width /***/:auto;　
+}
+
+background: url(../images/eee.jpg) z-index:1;
+
+color: #ff00f0;
+
+padding: 0px;
+
+margin: 0px;
+
+}
+#container{ margin: 30px auto 0px; padding: 30px;}
+
+ul{list-style-type: none;}
+
+h1,h2,h3,h4,h5,ul,li,form{
+margin: 0px;
+padding: 0px;
+}
+nav#menu ul li {
+float: left;
+width: 278.3px;
+margin-right: 1px;
+}
+nav#menu ul li a {
+text-decoration: none;
+color: #fff;
+background: #6f2b00;
+display: block;
+padding: 5px 0px;
+text-align: center;
+}
+nav#menu ul li a:hover{
+background: #d3c4ff;
+}
+header #logic{
+position: absolute;
+float: right;
+top: 0px;
+}
+header #logo {
+	position: absolute;
+	left: 5px;
+	top: 55px;}
+#side-bar {
+float: left;
+width: 200px;
+}
+
+aside#mainimg img{
+width: 100%;
+height: auto;}
+.text-big{
+font-size: 50px;
+}
+#contents{
+clear: left;
+padding-top: 30px;
+}
+.mb25{
+margin-bottom: 25px;
+}
+.mb15{
+margin-bottom: 25px;
+}
+#contents h2 {
+border-top: 1px solid #CCC;
+border-right: 1px solid #CCC;
+border-bottom: 4px solid #726043;
+border-left: 1px solid #CCC;
+padding: 0px 20px;
+font-size: 30px;
+}
+#contents h3 {
+border-top: 1px solid #CCC;
+border-right: 1px solid #CCC;
+border-bottom: 4px solid #726043;
+border-left: 1px solid #CCC;
+padding: 0px 20px;
+font-size: 30px;
+}
+#contents h4 {
+border-top: 1px solid #CCC;
+border-right: 1px solid #CCC;
+border-bottom: 4px solid #726043;
+border-left: 1px solid #CCC;
+padding: 0px 20px;
+font-size: 30px;
+}
+#contents h4 p {
+font-size: 15px
+}
+#contents h3 p {
+font-size: 15px;}
+/*トップページ内「更新情報・お知らせ」ブロック
+-----------------------------------------------------------------*/
+#new dl{
+	margin: 0px 20px 0px;
+}
+#new dt {
+	font-weight: bold;
+	float: left;
+	width: 10em;
+}
+#new dd {
+
+	padding-left: 10em;
+}
+/*トップページ更新お知らせここまで
+
+
+#footer {
+border: 0px;
+color: #666 ;
+	text-align: center;
+	padding: 15px 0px;
+}
+
+}
+
+
